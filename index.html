@@ -15,15 +15,50 @@
 		<meta property="og:title" content="FacturaExpress | Facturación electrónica para pymes" />
 		<meta property="og:description" content="Factura, controla y consulta tu operación desde cualquier navegador." />
 		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://jhromero81.github.io/facturaexpress-landing/assets/marca/facturaexpress-simbolo-1024.png" />
+		<link rel="icon" href="assets/marca/favicon.ico" sizes="any" />
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/marca/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/marca/favicon-16x16.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/marca/apple-touch-icon.png" />
+		<meta name="theme-color" content="#0B2A5B" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Marca FacturaExpress sobre la plantilla Landed */
+			#header #logo img { height: 1.9em; width: auto; vertical-align: middle; }
+			#banner .content .image,
+			#banner .content .image img { border-radius: 22.6%; }
+			#banner .content .image img { box-shadow: 0 0 90px rgba(27, 79, 216, 0.55); }
+			#footer .marca { max-width: 9em; margin: 0 auto 1.5em auto; display: block; }
+			/* El acento rosa de la plantilla pasa a los colores de la marca */
+			#footer .copyright a { color: #9DB4EE !important; }
+			header.major:after { background: #1B4FD8; }
+			.button.primary,
+			input[type="submit"].primary {
+				background-color: #1B4FD8 !important;
+				color: #ffffff !important;
+				box-shadow: none;
+			}
+			.button.primary:hover,
+			input[type="submit"].primary:hover { background-color: #163FB0 !important; }
+			.wrapper.style2 { background: #0B2A5B; }
+			.wrapper.style2 input[type="submit"].primary,
+			.wrapper.style2 .button.primary {
+				background-color: #ffffff !important;
+				color: #1B4FD8 !important;
+			}
+			#header nav ul li.active > a,
+			#header nav ul li.active > span,
+			.dropotron > li.active > a,
+			.dropotron > li.active > span { color: #1B4FD8 !important; }
+		</style>
 	</head>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
 
 			<!-- Encabezado -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">FacturaExpress</a></h1>
+					<h1 id="logo"><a href="index.html"><img src="assets/marca/facturaexpress-logo-horizontal-blanco-800.png" alt="FacturaExpress" /></a></h1>
 					<nav id="nav">
 						<ul>
 							<li><a href="#banner">Inicio</a></li>
@@ -50,7 +85,7 @@
 							<p>Emite facturas electrónicas, controla tus clientes<br />
 							y consulta tus ventas desde cualquier navegador.</p>
 						</header>
-						<span class="image"><img src="images/pic01.jpg" alt="Equipo de trabajo revisando indicadores de ventas" /></span>
+						<span class="image"><img src="assets/marca/facturaexpress-simbolo-1024.png" alt="Símbolo de FacturaExpress: una F con un rayo" /></span>
 					</div>
 					<a href="#one" class="goto-next scrolly">Siguiente</a>
 				</section>
@@ -191,6 +226,7 @@
 
 			<!-- Pie de página -->
 				<footer id="footer">
+					<img class="marca" src="assets/marca/facturaexpress-logo-vertical-mixto-800.png" alt="FacturaExpress" />
 					<ul class="icons">
 						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
