@@ -25,11 +25,16 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
 			/* Marca FacturaExpress sobre la plantilla Landed */
-			#header #logo img { height: 1.9em; width: auto; vertical-align: middle; }
+			#header #logo img { height: 32px; width: auto; vertical-align: middle; }
 			#banner .content .image,
 			#banner .content .image img { border-radius: 22.6%; }
 			#banner .content .image img { box-shadow: 0 0 90px rgba(27, 79, 216, 0.55); }
 			#footer .marca { max-width: 9em; margin: 0 auto 1.5em auto; display: block; }
+			#titleBar .toggle:before { background: #1B4FD8; }
+			#titleBar .title img { height: 26px; width: auto; vertical-align: middle; }
+			@media screen and (max-width: 736px) {
+				#header #logo img { height: 26px; }
+			}
 			/* El acento rosa de la plantilla pasa a los colores de la marca */
 			#footer .copyright a { color: #9DB4EE !important; }
 			header.major:after { background: #1B4FD8; }
